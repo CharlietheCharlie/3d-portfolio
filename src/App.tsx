@@ -4,6 +4,7 @@ import Hero from "./components/sections/Hero"
 import ShowCaseSection from "./components/sections/ShowCaseSection"
 import FeatureCards from "./components/sections/FeatureCards"
 import ExperienceSection from "./components/sections/ExperienceSection"
+import TechStack from "./components/sections/TechStack"
 
 
 const App: React.FC = () => {
@@ -15,6 +16,7 @@ const App: React.FC = () => {
             <LogoSection />
             <FeatureCards />
             <ExperienceSection />
+            <TechStack />
         </>
     )
 }
